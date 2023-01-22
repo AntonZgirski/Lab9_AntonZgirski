@@ -22,7 +22,7 @@ namespace Lab9
 
     public Squad(string pars)
     {
-      pars = pars.Trim(new char[] { '{', '}' });
+      pars = pars.Trim('{', '}');
       
       string[] one = pars.Split(',', ':');
 

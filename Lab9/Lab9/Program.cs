@@ -12,7 +12,7 @@ namespace Lab9
   {
     static void Main(string[] args)
     {
-      var squad = new Squad("People", "100","World");
+      var squad = new Squad("People", "999","World");
       var squadJson = JsonConvert.SerializeObject(squad);
       string pars;
       IFormatter formatter = new BinaryFormatter();
