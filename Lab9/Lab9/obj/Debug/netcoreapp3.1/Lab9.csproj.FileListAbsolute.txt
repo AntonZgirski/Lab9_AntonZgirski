@@ -1,0 +1,16 @@
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.exe
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.deps.json
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.runtimeconfig.json
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.runtimeconfig.dev.json
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.dll
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Lab9.pdb
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csproj.AssemblyReference.cache
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.GeneratedMSBuildEditorConfig.editorconfig
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.AssemblyInfoInputs.cache
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.AssemblyInfo.cs
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csproj.CoreCompileInputs.cache
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.csproj.CopyComplete
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.dll
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.pdb
+D:\C#\Курсы TMS\Lab9\Lab9\Lab9\obj\Debug\netcoreapp3.1\Lab9.genruntimeconfig.cache
