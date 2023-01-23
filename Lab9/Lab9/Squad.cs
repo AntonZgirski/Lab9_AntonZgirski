@@ -7,23 +7,26 @@ namespace Lab9
   [Serializable]
   public class Squad
   {
-    public string nameSquad { get; set; }
-    public string countSquad { get; set; }
-    public string placeSquad { get; set; }
+    public string NameSquad { get; set; }
+    public string CountSquad { get; set; }
+    public string PlaceSquad { get; set; }
     public Squad()
     {
     }
     public Squad(string name, string count, string place)
     {
-      this.nameSquad = name;
-      this.countSquad = count;
-      this.placeSquad = place;
+      this.NameSquad = name;
+      this.CountSquad = count;
+      this.PlaceSquad = place;
     }
+  }
 
-    public Squad(string pars)
-    {
+  public class ParsJSon
+  {
+    public Squad Pars(string pars)
+    {      
       pars = pars.Trim('{', '}');
-      
+
       string[] one = pars.Split(',', ':');
 
       StringBuilder str = new StringBuilder();
@@ -36,13 +39,11 @@ namespace Lab9
           if (i != one.Length - 1) str.Append(",");
         }
       }
-      
+
       string finish = str.ToString();
       string[] fin = finish.Split(',');
 
-      this.nameSquad = fin[0];
-      this.countSquad = fin[1];
-      this.placeSquad = fin[2];
+      return new Squad(fin[0],fin[1],fin[2]);
     }
   }
 }

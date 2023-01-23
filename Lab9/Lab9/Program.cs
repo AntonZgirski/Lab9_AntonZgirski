@@ -12,7 +12,7 @@ namespace Lab9
   {
     static void Main(string[] args)
     {
-      var squad = new Squad("People", "999","World");
+      var squad = new Squad("Peopls", "2","World");
       var squadJson = JsonConvert.SerializeObject(squad);
       string pars;
       IFormatter formatter = new BinaryFormatter();
@@ -27,7 +27,8 @@ namespace Lab9
         pars = formatter.Deserialize(stream).ToString();
       }
 
-      var squadDis = new Squad(pars);
+      var parsJson = new ParsJSon();
+      var squadDis = parsJson.Pars(pars);
 
       using (Stream stream = new FileStream("Squad.bin", FileMode.Create, FileAccess.Write, FileShare.None))
       {

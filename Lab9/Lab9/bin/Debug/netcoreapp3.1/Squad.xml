@@ -1,6 +1,6 @@
 <?xml version="1.0"?>
 <Squad xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema">
-  <nameSquad>People</nameSquad>
-  <countSquad>999</countSquad>
-  <placeSquad>World</placeSquad>
+  <NameSquad>Peopls</NameSquad>
+  <CountSquad>2</CountSquad>
+  <PlaceSquad>World</PlaceSquad>
 </Squad>
